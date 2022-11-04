@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetornoOld">
+
+    <EditText
+        android:id="@+id/txtCiudadOld"
+        android:layout_width="340dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Ciudad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumeroOld" />
+
+    <EditText
+        android:id="@+id/txtNumeroOld"
+        android:layout_width="344dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Numero"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalleOld" />
+
+    <Button
+        android:id="@+id/btnCrearOld"
+        android:layout_width="378dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="84dp"
+        android:text="CREAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCiudadOld" />
+
+    <EditText
+        android:id="@+id/txtCalleOld"
+        android:layout_width="351dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:hint="Calle"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="157dp"
+        android:layout_height="39dp"
+        android:text="Nueva Direccion"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
